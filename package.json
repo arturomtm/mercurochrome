@@ -1,0 +1,11 @@
+{
+  "name": "mercurochrome",
+  "version": "0.0.2",
+  "description": "Message passing for Chrome made easy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arturomtm <arturomtm@gmail.com>",
+  "license": "ISC"
+}
