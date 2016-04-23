@@ -1,0 +1,20 @@
+{
+  // mandatory entries
+  "manifest_version": 2,
+  "name": "mercurochrome_test",
+  "version": "0.0.2",
+  // optional info
+  "description": "Test extension for mercurochrome",
+  "author": "arturomtm@gmail.com",
+  // extension config
+  "background": {
+    "persistent": true,
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
