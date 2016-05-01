@@ -9,12 +9,12 @@
   // extension config
   "background": {
     "persistent": true,
-    "scripts": ["background.js"]
+    "scripts": ["build/background.js"]
   },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.js"]
+      "js": ["build/content.js"]
     }
   ]
 }

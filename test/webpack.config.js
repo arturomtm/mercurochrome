@@ -4,7 +4,7 @@ module.exports = {
     content: './content/'
   },
   output: {
-    path: '.',
+    path: './build',
     filename: '[name].js'
   }
 };
