@@ -1,7 +1,8 @@
 module.exports = {
   entry: {
     background: './background/',
-    content: './content/'
+    content: './content/',
+    script: './script/'
   },
   output: {
     path: './build',

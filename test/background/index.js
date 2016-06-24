@@ -18,6 +18,6 @@ Object.assign(test, {
 
 setInterval(function(){
   test.emit("testevent", ++test.i);
-}, 1000);
+}, 5000);
 
 rmi.register("test", test);
