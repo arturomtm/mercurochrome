@@ -19,5 +19,8 @@
   ],
   "web_accessible_resources": [
     "build/script.js"
-  ]
+  ],
+  "externally_connectable": {
+    "matches": ["*://*.google.es/*"]
+  }
 }
